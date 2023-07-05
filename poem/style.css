@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mintcream:#F7FFF7;
+    --h1:#F3DFC1;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+     background-image: url("forest.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    background-color: rgb(68, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2rem);
+    padding: 2rem;
+    border-radius: 4rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    
+
+}
+.box h1{
+    color:var(--h1);
+    font-size: 2.5rem;
+    
+    
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.box h2{
+    width: 100%;
+    text-align: end;
+    color: var(--h1);
+    font-size:1.7rem ;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.box .poem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color:var(--mintcream);
+    font-size: 1.5rem;
+    
+
+}
+.snow{
+    width: 3%;
+    height: 5%;
+    position: absolute;
+}
+#one{
+    top:0%;
+    left:0%;
+    animation: one 1s linear infinite forwards ;
+
+}
+#two{
+    top:0rem;
+    left:5rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 0.5s;
+
+}
+#three{
+    top:0rem;
+    left:10rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1.5s;
+
+}
+#four{
+    top:0rem;
+    left:15rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1.5s;
+
+}
+#five{
+    top:0rem;
+    left:20rem;
+    animation: one 1s linear infinite forwards ;
+    
+
+}
+#six{
+    top:0rem;
+    left:25rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 0.1s;
+
+}
+#seven{
+    top:0rem;
+    left:30rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 0.8s;
+
+}
+#eight{
+    top:0rem;
+    left:35rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1s;
+
+}
+#nine{
+    top:0rem;
+    left:40rem;
+    animation: one 0.5s linear infinite forwards ;
+    animation-delay: 1.5s;
+
+}
+#ten{
+    top:0rem;
+    left:45rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1s;
+
+}
+#eleven{
+    top:0rem;
+    left:50rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 0.1s;
+
+}
+#twelve{
+    top:0rem;
+    left:55rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1s;
+
+}
+#thirteen{
+    top:0rem;
+    left:60rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1.5s;
+
+}
+#fourteen{
+    top:0rem;
+    left:65rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1s;
+
+}
+#fifteen{
+    top:0rem;
+    left:70rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 0.5s;
+
+}
+#sixteen{
+    top:0rem;
+    left:75rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1s;
+
+}
+#seventeen{
+    top:0rem;
+    left:80rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1.5s;
+
+}
+#eightteen{
+    top:0rem;
+    left:85rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 0.5s;
+
+}
+#nineteen{
+    top:0rem;
+    left:90rem;
+    animation: one 1s linear infinite forwards ;
+    animation-delay: 1s;
+
+}
+
+
+@keyframes one {
+    0%{
+        top:0%;
+    }
+    50%{
+        top:50%;
+    }
+    100%{
+        top:100%;
+    }
+    
+}
+
+
+
