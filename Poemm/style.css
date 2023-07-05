@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Bacasime+Antique&family=Belanosima:wght@600&family=Outfit:wght@200&family=Playfair:wght@600&family=Raleway&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root{
+    
+    --alabaster:#EDE7D9;
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://t4.ftcdn.net/jpg/02/34/24/81/360_F_234248109_oOkVWF7CU8fQS77qJ91PMvrv49aEmtsR.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Agdasima", sans-serif;
+  font-family: "Bacasime Antique", serif;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Playfair", serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;
+  position: relative;
+  
+  
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(4rem);
+  padding: 5rem 2rem 2rem;
+  border-radius: 4rem;
+  margin: 3rem auto;
+  z-index: 999;
+  height: 60rem;
+  
+}
+.box h1{
+    
+    font-size: 3rem;
+    text-align: center;
+    color: var(--alabaster);
+}
+.box h2{
+    font-size: 1.7rem;
+    text-align: end;
+    color:var(--alabaster);
+    width: 100%;
+    margin:1.2rem;
+}
+.poem {
+  
+  padding: 1rem;
+  font-size: 1.8rem;
+  color:#FFEFD3;
+}
+.snow{
+    width:3.5%;
+    height: 5%;
+    position: absolute;
+    z-index: -999;
+}
+#one{
+    top:0%;
+    left:0%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#two{
+    top:0%;
+    left:5%;
+    animation: move 1s linear 0.5s infinite forwards ;
+}
+#three{
+    top:0%;
+    left:10%;
+    animation: move 1s linear 1s infinite forwards ;
+}
+#four{
+    top:0%;
+    left:15%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#five{
+    top:0%;
+    left:20%;
+    animation: move 1s linear 0.5s infinite forwards ;
+}
+#six{
+    top:0%;
+    left:25%;
+    animation: move 1s linear 1s infinite forwards ;
+}
+#seven{
+    top:0%;
+    left:30%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#eight{
+    top:0%;
+    left:35%;
+    animation: move 1s linear 0.5s infinite forwards ;
+}
+#nine{
+    top:0%;
+    left:40%;
+    animation: move 1s linear 1s infinite forwards ;
+}
+#ten{
+    top:0%;
+    left:45%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#eleven{
+    top:0%;
+    left:50%;
+    animation: move 1s linear 0.5s infinite forwards ;
+}
+#twelve{
+    top:0%;
+    left:55%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#thirteen{
+    top:0%;
+    left:60%;
+    animation: move 1s linear 0.3s infinite forwards ;
+}
+#fourteen{
+    top:0%;
+    left:65%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#fifteen{
+    top:0%;
+    left:70%;
+    animation: move 1s linear 1s infinite forwards ;
+}
+#sixteen{
+    top:0%;
+    left:75%;
+    animation: move 1s linear 0.1s infinite forwards ;
+}
+#seventeen{
+    top:0%;
+    left:80%;
+    animation: move 1s linear 0.5s infinite forwards ;
+}
+#eightteen{
+    top:0%;
+    left:85%;
+    animation: move 1s linear 1s infinite forwards ;
+}
+#nineteen{
+    top:0%;
+    left:90%;
+    animation: move 1s linear 0.5s infinite forwards ;
+}
+@keyframes move {
+    0%{
+        top:0%;
+    }
+    50%{
+        top:50%;
+    }
+    100%{
+        top:90%;
+    }
+    
+}
